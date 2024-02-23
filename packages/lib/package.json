@@ -1,0 +1,20 @@
+{
+  "name": "@repo/lib",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "./src/addKey.ts",
+    "./src/branding.ts",
+    "./src/buildImage.ts",
+    "./src/clamp.ts",
+    "./src/formattedTime.tsx",
+    "./src/getHostname.ts",
+    "./src/getOfflineData.ts",
+    "./src/htmlComment.tsx",
+    "./src/networkError.ts"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.57",
+    "react": "^18.2.0"
+  }
+}
