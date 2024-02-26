@@ -4,6 +4,9 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "dev:account": "turbo run dev --filter='./apps/account-ssr-ap.cds.amcn.com'",
+    "dev:browse": "turbo run dev --filter='./apps/browse-ssr-ap.cds.amcn.com'",
+    "dev:watch": "turbo run dev --filter='./apps/watch-ssr-ap.cds.amcn.com'",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -15,6 +18,6 @@
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.0.0"
   }
 }

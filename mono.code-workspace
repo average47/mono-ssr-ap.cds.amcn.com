@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "name": "Account",
+      "path": "apps/account-ssr-ap.cds.amcn.com"
+    },
+    {
+      "name": "Browse",
+      "path": "apps/browse-ssr-ap.cds.amcn.com"
+    },
+    {
+      "name": "Watch",
+      "path": "apps/watch-ssr-ap.cds.amcn.com"
+    },
+    {
+      "name": "Components",
+      "path": "packages/ui"
+    },
+    {
+      "name": "Tailwind",
+      "path": "packages/tailwind-config"
+    },
+    {
+      "name": "Utility Libray",
+      "path": "packages/lib"
+    }
+  ]
+}
